@@ -1,4 +1,4 @@
-# 自用仓库🍔🍔<br />部分代码不开放💘💘<br />
+# 自用仓库🍔🍔<br />部分分支不开放💘💘<br />
 <div align=center>
 
 ![](https://img.shields.io/badge/讨厌-学习-yellow)
