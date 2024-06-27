@@ -1,3 +1,4 @@
-可视化需要
-[nodejs](https://github.com/nodejs/node)
-[vue.js](https://github.com/vuejs/vue)
+可视化需要的插件：
+
+1. [nodejs](https://github.com/nodejs/node)
+2. [vue.js](https://github.com/vuejs/vue)
