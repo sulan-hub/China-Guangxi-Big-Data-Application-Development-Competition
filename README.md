@@ -15,12 +15,12 @@
 ## dbigdata镜像内部环境以及软件
 
 
-| 类型   | 服务名         | 备注            |
-| ------ | -------------- | --------------- |
-| 镜像   | dbigdata       | latest          |
-| 软件包 | openssh-server |                 |
-| 软件包 | net-tools      |                 |
-| 软件包 | vim            |                 |
+| 类型   | 服务名         | 备注                                                                                                                                                       |
+| ------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 镜像   | dbigdata       | latest                                                                                                                                                     |
+| 软件包 | openssh-server |                                                                                                                                                            |
+| 软件包 | net-tools      |                                                                                                                                                            |
+| 软件包 | vim            |                                                                                                                                                            |
 | 仓库   | 国内部分可用   | <a href="https://github.com/sulan-hub/China-Guangxi-Big-Data-Application-Development-Competition/blob/main/docker/%E4%BB%93%E5%BA%93/daemon.json">查看</a> |
 
 * <p>
@@ -29,5 +29,14 @@
 * <p>
   <a href="https://github.com/sulan-hub/China-Guangxi-Big-Data-Application-Development-Competition/releases">其他版本(没弄完)</a>
   </p>
+
+## ubuntu安装docker,以及部署容器
+
+```
+apt install docker.io
+docker load --input bigdata.tar
+docker run -it --name [容器名] -d bigdata
+docker exec -it [容器名] bash
+```
 
 自述文件没写完🧱🧱🧱
