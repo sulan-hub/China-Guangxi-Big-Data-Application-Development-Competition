@@ -35,7 +35,7 @@
 ```
 apt install docker.io
 docker load --input bigdata.tar
-docker run -it --name [容器名] --net [网络名] -d bigdata
+docker run -itd --name [容器名] --net=[网络名] bigdata
 docker exec -it [容器名] bash
 ```
 
