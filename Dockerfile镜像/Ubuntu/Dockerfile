@@ -11,3 +11,8 @@ RUN apt install vim -y
 RUN apt install inetutils-ping -y
 ##安装sshd
 RUN apt install openssh-server -y
+# 安装sudo
+RUN apt install sudo -y
+# 刷新配置文件
+CMD source /etc/profile
+CMD source /root/.profile
