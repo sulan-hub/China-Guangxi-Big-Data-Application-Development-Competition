@@ -12,7 +12,34 @@
     <img class="xzc" src="./image/R-C_processed.jpg" alt="" width="70%" height="70%" clear="both" display="block" margin="auto">
 </div>
 
-## dbigdata镜像内部环境以及软件
+
+
+
+
+
+
+
+
+
+
+
+# ubuntu安装docker,以及部署容器
+
+```
+apt install docker.io
+docker load --input bigdata.tar
+docker run -it --name [容器名] -d bigdata
+docker exec -it [容器名] bash
+```
+
+
+
+
+
+
+
+
+## dbigdata-Ubuntu镜像内部环境以及软件
 
 
 | 类型   | 服务名         | 备注                                                                                                                                                       |
@@ -30,13 +57,22 @@
   <a href="https://github.com/sulan-hub/China-Guangxi-Big-Data-Application-Development-Competition/releases">其他版本(没弄完)</a>
   </p>
 
-## ubuntu安装docker,以及部署容器
 
-```
-apt install docker.io
-docker load --input bigdata.tar
-docker run -itd --name [容器名] --net=[网络名] bigdata
-docker exec -it [容器名] bash
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 自述文件没写完🧱🧱🧱
+
+
+
