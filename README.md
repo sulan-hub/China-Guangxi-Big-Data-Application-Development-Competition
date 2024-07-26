@@ -26,10 +26,10 @@
 # ubuntu安装docker,以及部署容器
 
 ```
-apt install docker.io
-docker load --input bigdata.tar
-docker run -it --name [容器名] -d bigdata
-docker exec -it [容器名] bash
+apt install docker.io #安装docker
+docker load --input bigdata.tar #导入镜像
+docker run -it --name [容器名] -d bigdata #创建镜像
+docker exec -it [容器名] bash #进入容器
 ```
 
 
