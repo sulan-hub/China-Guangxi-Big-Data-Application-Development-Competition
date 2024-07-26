@@ -39,16 +39,10 @@ docker exec -it [容器名] bash
 
 
 
-## dbigdata-Ubuntu镜像内部环境以及软件
+## dbigdata镜像
 
 
-| 类型   | 服务名         | 备注                                                                                                                                                       |
-| ------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 镜像   | dbigdata       | latest                                                                                                                                                     |
-| 软件包 | openssh-server |                                                                                                                                                            |
-| 软件包 | net-tools      |                                                                                                                                                            |
-| 软件包 | vim            |                                                                                                                                                            |
-| 仓库   | 国内部分可用   | <a href="https://github.com/sulan-hub/China-Guangxi-Big-Data-Application-Development-Competition/blob/main/docker/%E4%BB%93%E5%BA%93/daemon.json">查看</a> |
+
 
 * <p>
   <a href="https://github.com/sulan-hub/China-Guangxi-Big-Data-Application-Development-Competition/releases/download/untagged-43be75fb62b9d73eee07/bigdata.tar">点击下载</a>
