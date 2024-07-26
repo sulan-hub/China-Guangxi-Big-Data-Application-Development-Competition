@@ -1,6 +1,6 @@
 FROM ubuntu
 ##更新软件包信息
-RUN apt updata
+RUN apt update
 ##更新所有包
 RUN apt -y upgrade
 ##安装ifconfig
