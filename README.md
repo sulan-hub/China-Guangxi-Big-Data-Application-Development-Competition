@@ -45,7 +45,7 @@ docker exec -it [容器名] bash #进入容器
 
 
 * <p>
-  <a href="https://github.com/sulan-hub/China-Guangxi-Big-Data-Application-Development-Competition/releases/download/untagged-43be75fb62b9d73eee07/bigdata.tar">点击下载</a>
+  <a href="https://github.com/sulan-hub/China-Guangxi-Big-Data-Application-Development-Competition/releases/download/bigdata-v1.1/bigdata-1.1.tar">点击下载最新版本</a>
   </p>
 * <p>
   <a href="https://github.com/sulan-hub/China-Guangxi-Big-Data-Application-Development-Competition/releases">其他版本(没弄完)</a>
