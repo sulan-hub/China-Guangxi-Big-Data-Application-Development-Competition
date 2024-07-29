@@ -9,7 +9,7 @@
 | 软件包 | vim            |                  |
 | 软件包 | ping           |                  |
 | 软件包 | sudo           |                  |
-| 软件包 | python3.12     | 简化命令为python |
+| 软件包 | python3.12     | 简化命令为python3 |
 
 ## Dockerfile的使用，ubuntu镜像
 
