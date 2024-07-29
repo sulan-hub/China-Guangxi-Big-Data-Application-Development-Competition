@@ -13,6 +13,9 @@ RUN apt install inetutils-ping -y
 RUN apt install openssh-server -y
 # 安装sudo
 RUN apt install sudo -y
+# 安装python,并将命令简化
+RUN apt install python3.12 -y
+RUN mv /usr/bin/python3.12 /usr/bin/python
 # 刷新配置文件
 CMD source /etc/profile
 CMD source /root/.profile
