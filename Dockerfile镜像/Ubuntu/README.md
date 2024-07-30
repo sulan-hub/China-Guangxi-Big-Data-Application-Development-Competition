@@ -1,15 +1,15 @@
 ## Dockerfile 文件
 
 
-| 类型   | 服务名         | 备注             |
-| ------ | -------------- | ---------------- |
-| 镜像   | ubuntu         | latest           |
-| 软件包 | openssh-server |                  |
-| 软件包 | net-tools      |                  |
-| 软件包 | vim            |                  |
-| 软件包 | ping           |                  |
-| 软件包 | sudo           |                  |
-| 软件包 | python3.12     | 简化命令为python3 |
+| 类型   | 服务名         | 备注                 |
+| ------ | -------------- | -------------------- |
+| 镜像   | ubuntu         | latest               |
+| 软件包 | openssh-server | 需要自行修改配置文件 |
+| 软件包 | net-tools      |                      |
+| 软件包 | vim            |                      |
+| 软件包 | ping           |                      |
+| 软件包 | sudo           |                      |
+| 软件包 | python3.12     | 简化命令为python3    |
 
 ## Dockerfile的使用，ubuntu镜像
 
