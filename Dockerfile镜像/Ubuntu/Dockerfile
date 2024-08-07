@@ -16,6 +16,8 @@ RUN apt install sudo -y
 # 安装python,并将命令简化
 RUN apt install python3.12 -y
 RUN mv /usr/bin/python3.12 /usr/bin/python3
+#安装netcat-traditional
+apt install netcat-traditional -y
 # 清理apt缓存文件
 RUN rm -rf /var/lib/apt/lists/*
 # 刷新配置文件
