@@ -1,4 +1,4 @@
-## Dockerfile 文件
+# Dockerfile 文件
 
 
 | 类型   | 服务名             | 备注                  |
@@ -13,7 +13,7 @@
 | 软件包 | netcat-traditional | 监听工具              |
 | 软件包 | tzselect           | 修改时区，为北京时间  |
 
-## Dockerfile的使用，ubuntu镜像
+# Dockerfile的使用，ubuntu镜像
 
 在 Dockerfile 文件的存放目录下，执行构建动作。
 
@@ -24,7 +24,10 @@
 docker build -t [镜像名称]:[镜像标签] .
 ```
 
-* 2024/7/24 新增 刷新配置文件
+# * 2024/7/24 新增 刷新配置文件
+
 * 2024/7/30 4:30 "新增 python3.12软件，并简化命令"  （Dockerfile 文件16行）
 * 2024/8/8 2:49 "添加netcat-traditional(netcat插件)端口监听工具"
 * 2024/8/8 2:50 "添加tzselect(时区插件)修改时区,为北京时间"
+
+# **该镜像为实验性，存在多种未知的Bug，可以将问题提交至lssues，或者将解决办法也一并提交，谢谢您的贡献**
